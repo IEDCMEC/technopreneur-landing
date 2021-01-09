@@ -9,6 +9,11 @@
 	background: linear-gradient( transparent, #393fdf, #6144ba, #9208ae, #d01776);
 	border-radius: 3px;
 }
+::-webkit-scrollbar-thumb:hover
+{
+	background: linear-gradient( transparent, #89ff34, #FEE715FF, #ff0e8b, #f9009e);
+}
+
 html{
 	scroll-behavior: smooth;
 }
@@ -30,7 +35,7 @@ body {
 	background: url(assets/up.png);
 	border-radius: 50%;
 	border-color: rgb(255, 230, 230);
-	background-color: transparent;
+	background-color: rgb(235, 201, 201);
 	background-size: 30px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -41,9 +46,6 @@ body {
 	transition: 0.5s;
   }
 
-  .scrollTop:hover{
-	  background-color: rgb(235, 201, 201);
-  }
 
   .scrollTop.active{
 	  bottom: 40px;

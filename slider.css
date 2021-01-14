@@ -54,6 +54,7 @@ body {
   position: relative;
   z-index: 2;
   background: transparent;
+  padding-top: 8rem;
 }
 
 .input_fields {

@@ -11,37 +11,37 @@
         <link rel="stylesheet" type="text/css" href="styles.css">
         <link rel="stylesheet" type="text/css" href="timeline.css">
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"> -->
         <link rel="stylesheet" type="text/css" href="slider.css"></link>
-        
-       
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     </head>
-    <body>
+    <body style="font-family: montserrat">
       <script>
         $('html, body').css({ 'overflow': 'hidden', 'height': '100%' })
       </script>
-     
         <div class="scrollTop" onclick="scrollToTop();"></div>
         <nav class="navbar navbar-expand-md">
-            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
-              <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navigation">
+              <span class="navbar-toggler-icon">   
+                <i class="fa fa-bars" aria-hidden="true"></i>
+              </span>
             </button>
             <div class="collapse navbar-collapse" id="main-navigation">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a href="#about" class="nav-link">About</a>
+                    <a href="#about" class="nav-link">ABOUT</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#services" class="nav-link">Some facts</a>
+                    <a href="#services" class="nav-link">BENEFITS</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#legacy" class="nav-link" >Legacy</a>
+                    <a href="#legacy" class="nav-link" >LEGACY</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#sponsors" class="nav-link" >Previous Sponsors</a>
+                    <a href="#sponsors" class="nav-link" >PREVIOUS SPONSORS</a>
                 </li>
                 <li class="nav-item">
-                  <a href="#contacts" class="nav-link" >Contact Us</a>
+                  <a href="#contacts" class="nav-link" >CONTACT US</a>
               </li>
             </ul>
         </div>
@@ -54,13 +54,12 @@
                     <!--<h2 class="text-uppercase text-white">IEDCMEC</h2>
                         <p class="text-white font-style-italic font-weight-bold">presents</p>
                         <hr class="divider my-4" />-->
-                        <img class="img-logo" src="assets/logox.png" alt="" />
+                        <img class="img-logo" src="assets/logowhite.png" alt="" />
                         
                 </div>  
               </div>
-                
             </div>
-            <a class="btn draw-border explore" href="#about">Explore</a>
+            <a class="btn draw-border explore" href="#about">EXPLORE</a>
         </div>
         <div id="mobile" class="masthead">
           <div class="container h-100">
@@ -71,7 +70,7 @@
                       <!--<h2 class="text-uppercase text-white">IEDCMEC</h2>
                           <p class="text-white font-style-italic font-weight-bold">presents</p>
                           <hr class="divider my-4" />-->
-                          <img class="img-logo" src="assets/logox.png" alt="" />
+                          <img class="img-logo" id="img-logo-mobile" src="assets/logowhite.png" alt="" />
                           
                   </div>
                   
@@ -81,30 +80,38 @@
                 </div>    
               </div>
               
-              <a class="btn draw-border explore" href="#about">Explore</a>
+              <a class="btn draw-border explore" id="explore-mobile" href="#about">Explore</a>
               
           </div>
         <div id="about" class="about">
-            <h1 data-aos="fade-down">About</h1>
+            <h1 data-aos="fade-down">ABOUT</h1>
             <hr />
             <div class="about-contents">
                 <div class="about-header left" data-aos="fade-up">
-                    <img class="img-iedc" src="assets/iedclogo.png" />
-                    <p class="presents">presents</p>
-                    <img class="img-logo-about" src="assets/logox.png" alt="" />
+                    <img class="img-logo-about" src="assets/websitething.png" alt="" />
                 </div>
                 <div class="right" data-aos="fade-up">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non porta nisl. In in hendrerit
-                        tortor. Morbi in neque congue, ullamcorper odio quis, euismod ligula. Donec interdum neque a
-                        tortor mattis, ac iaculis velit dictum. Aliquam efficitur non libero eget suscipit. Vivamus elit
-                        sapien, tincidunt a tortor quis, tincidunt aliquet ante. Ut aliquam nisl eget posuere pulvinar.
-                        Maecenas at imperdiet magna.
+                      <b>Technopreneur</b> is the flagship event of IEDC MEC, and one of the most looked forward to events in MEC. 
+                      It is the annual entrepreneurial and managerial symposium of Model Engineering College and includes a 
+                      plethora of events including Idea Pitching, Prototype Development, hackathons, and much more. 
+                      The first edition of Technopreneur, Technopreneur 2006, went on to win the Best Yi-Net event at the CII National Summit in Mumbai.
+                      Technopreneur 2021 will embrace its past legacy with a modern upgrade and intends to train and up-skill the hungry minds 
+                      seeking to build enterprises on their own. With over 1000+ participants from top engineering colleges and B-schools across the 
+                      country, Technopreneur aims to impact everyone from students to working-class professionals. One of our most exciting 
+                      pre-events for this year is the Hult Prize, which is an annual, year-long competition that challenges students to solve 
+                      pressing social issues around the world. 
+                    </p>
 
-                        Sed gravida, sem sed varius ullamcorper, leo enim suscipit augue, sed iaculis massa leo vitae
-                        neque. Nullam at lacus elit. Nam leo felis, fringilla sit amet feugiat vel, porttitor a turpis.
-                        Proin tempus condimentum scelerisque. Ut non elit a urna bibendum lacinia vitae ut nulla. Ut
-                        venenatis felis auctor sapien imperdiet, viverra consectetur urna fringilla.
+                    <p><b>Emerge! Endure! Evolve!</b></p>
+                      
+                    <p>
+                      Technopreneur has always followed the path of these three words when it comes to choosing a theme. 
+                      In this pandemic-stricken world, each human being is fighting through thick and thin to overcome the challenges we are faced with. 
+                      To successfully emerge from the ashes of these dire conditions, this year's theme for Technopreneur is to evolve into a better world
+                      through disruption, to provide the most innovative solutions for our problems. Our theme hopes to invoke a sense of responsibility 
+                      and leadership in one's mind in order for them to understand that all our battles can be won through entrepreneurial solutions. 
+                      Technopreneur is that missing puzzle piece for aspiring minds to make their ideas and dreams come true.
                     </p>
                 </div>
             </div>
@@ -113,40 +120,23 @@
 
         </div>
         <div class="services" id="services">
-
-          <h1 data-aos="fade-down">Some facts</h1>
+          <h1 data-aos="fade-down">BENEFITS</h1>
           <hr />
           <div>
-            <p class="services-text-right">
-              Much awaited national event
-            </p>
-            <div data-aos="fade-down" class="services-icon-left"><i class="fa fa-globe"></i></div>
-            <p class="services-text-left">Has piqued the interest of a large number of students and aspiring
-              entrepreneurs across India.</p>
-            <div data-aos="fade-down" class="services-icon-right"><i class="fas fa-users"></i></div>
-            <p class="services-text-right">Bound to attract participants from across 200 colleges.</p>
-            <div data-aos="fade-down" class="services-icon-left"><i class="fas fa-university"></i></div>
-            <p class="services-text-left">Impressive publicity of company logo and profile in various social
-              networking sites.</p>
-              <div data-aos="fade-down" class="services-icon-right"><i class="fas fa-thumbs-up"></i></div>
-            <p class="services-text-right">Website records 3 lakh unique hits each year</p>
-            <div data-aos="fade-down" class="services-icon-left"><i class="fa fa-mouse-pointer"></i></div>
-            <p class="services-text-left">Event covered by leading dailies and magazines throughout the
-              buildup</p>
-              <div data-aos="fade-down" class="services-icon-right"><i class="fas fa-newspaper"></i></div>
-            <p class="services-text-right">Association with a brand name that companies are proud to be a
-              part of</p>
-              <div data-aos="fade-down" class="services-icon-left"><i class="fa fa-handshake"></i></div>
-            <p class="services-text-left">Event to be released on Youtube, further improving the brand's
-              visibility</p>
-              <div data-aos="fade-down" class="services-icon-right"><i class="fab fa-youtube"></i></div>
-            <p class="services-last"></p>
+            <p class="services-text-right" data-aos="fade-down">Nationwide participation</p>
+            <p class="services-text-left" data-aos="fade-down">200+ colleges, 1000+ college students </p>
+            <p class="services-text-right" data-aos="fade-down">Rich legacy of speakers</p>
+            <p class="services-text-left" data-aos="fade-down">Immense media coverage</p>
+            <p class="services-text-right" data-aos="fade-down">7000+ average reach on Instagram for a single post</p>
+            <p class="services-text-left" data-aos="fade-down">Association with an impressive brandname</p>
+            <p class="services-text-right" data-aos="fade-down">Youtube Release</p>
+            <p class="services-last" data-aos="fade-down"></p>
           </div>
         </div>
         
 
             <div id = "legacy" class = "legacy">
-                <h1 data-aos="fade-down" class = "leg">Legacy</h1>
+                <h1 data-aos="fade-down" class = "leg">LEGACY</h1>
                 <hr/>                
                 <div class="scene">
                     <div class="carousel" id="carousel">
@@ -354,9 +344,12 @@
             
             
             <div id="sponsors" class="sponsors">
-                <h1 data-aos="fade-down">Previous Sponsors</h1>
+                <h1 data-aos="fade-down">PREVIOUS SPONSORS</h1>
                 <hr/>
                 <div class="sponsor-container">
+                    <img id="floating" class = "floating" src="./assets/sponsors/ebay.png" />
+                    <img id="floating" class = "floating" src="./assets/sponsors/uber.png" />
+                    <img id="floating" class = "floating" src="./assets/sponsors/microsoft.png" />
                     <img id="floating" class = "floating" src="./assets/sponsors/arbitron.jpeg" />
                     <img id="floating" class = "floating" src="./assets/sponsors/mcfayden.png" />
                     <img id="floating" class = "floating" src="./assets/sponsors/apollo.png" />
@@ -370,8 +363,6 @@
                     <img id="floating" class = "floating" src="./assets/sponsors/1b2.png" />
                     <img id="floating" class = "floating" src="./assets/sponsors/boi.jpeg" />
                     <img id="floating" class = "floating" src="./assets/sponsors/tcs.png" />
-                    <img id="floating" class = "floating" src="./assets/sponsors/ebay.png" />
-                    <img id="floating" class = "floating" src="./assets/sponsors/uber.png" />
                     <img id="floating" class = "floating" src="./assets/sponsors/line.png" />
                     <img id="floating" class = "floating" src="./assets/sponsors/cleartip.png" />
                     <img id="floating" class = "floating" src="./assets/sponsors/centrea.png" />
@@ -387,7 +378,7 @@
 
             </div>
             <div id="contacts" class = "contacts">
-              <h1 class ="contact-head" data-aos="fade-down">Contacts</h1>
+              <h1 class ="contact-head" data-aos="fade-down">CONTACTS</h1>
               <hr/>
               <div class = "contact-container">
 
@@ -395,7 +386,7 @@
 
                   <img class = "contact-img" src="./assets/contact/aswin.jpg" />
                   <h1 class = "contact-name">Aswin Shanil</h1>
-                  <p># +918281284062</p>
+                  <p>+91 89076 47327</p>
                 </div>
 
                 <div data-aos="flip-up" class = "contact">
@@ -403,7 +394,7 @@
                   <img class = "contact-img" src="./assets/contact/allen.jpg" />
                   <h1 class = "contact-name">Allen Joseph</h1>
                   <p>Convenor</p>
-                  <p># +918281284062</p>
+                  <p>+91 82812 84062</p>
                 </div>
 
 
@@ -411,7 +402,7 @@
 
                   <img class = "contact-img" src="./assets/contact/alan.jpg" />
                   <h1 class = "contact-name">Alan Sebastian George</h1>
-                  <p># +918281284062</p>
+                  <p>+91 92873 41259</p>
                 </div>
                 
               </div>
@@ -459,7 +450,7 @@
                 scale: 1.00,
                 scaleMobile: 0.5,
                 color: 0xACE4FF,
-                backgroundColor: 0x040D21
+                backgroundColor: 0x002874
             });
     </script>
     <script>
